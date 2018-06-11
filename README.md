@@ -27,8 +27,8 @@ docker run -p 5555:8888 -i -t imagename /bin/bash # assign a port like 5555 or 7
 pip install jupyter notebook
 ```
 ### Configure
-```shell
-wget https://gist.githubusercontent.com/amoshyc/9c6f3939aec47e3ff41809931d1f8f64/raw/8224dc93e3a11f9317e4bc41d863ca466681ecd6/jupyter_notebook_config.py -P /root/.jupyter/
+```
+wget https://raw.githubusercontent.com/waszy110/Docker-Caffe-Jupyter/master/jupyter_notebook_config.py -P /root/.jupyter/
 ```
 ### Run jupyter notebook
 ```
